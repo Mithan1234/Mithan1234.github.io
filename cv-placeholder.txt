@@ -1,0 +1,1 @@
+Replace this file with your actual CV PDF named cv.pdf. The website's Download CV buttons expect assets/cv.pdf.
