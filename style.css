@@ -81,12 +81,11 @@ body {
 }
 
 .nav-item-link:hover {
-  color: #534df6;
+  color: #96b4ec;
 }
 
 .navbar-hire-button {
-  background-color: #ffffff;
-  color: #ffffff;
+  
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
@@ -94,17 +93,20 @@ body {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 8px;
-  transition: background-color 0.2s ease;
-  display: inline-block;
-  border: 3px solid #ffffff;
-  background-color: transparent;
+  border: 3px solid transparent;
   border-radius: 10px;
+  transition: background-color 0.6s ease;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  color: #453c3c;
   cursor: pointer;
 }
 
 .navbar-hire-button:hover {
-  background-color: #1d4ed8;
+  background-color: transparent; 
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 10px; 
 }
 
 /* ==========================================================================
