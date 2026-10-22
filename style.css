@@ -30,13 +30,14 @@ body {
    ========================================================================== */
 .navbar-section {
   width: 100%;
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 1000;
   background: linear-gradient(135deg, #0b1329 0%, #111e38 50%, #172554 100%);
   border-bottom: 1px solid #1e293b;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
+  padding: 0px 40px; /* 6px top/bottom, 40px left/right */
 }
 
 .navbar-container {
