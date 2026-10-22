@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fcd34d" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circle background -->
+  <circle cx="200" cy="200" r="200" fill="url(#bgGradient)" />
+
+  <!-- Inner border ring -->
+  <circle cx="200" cy="200" r="192" fill="none" stroke="#60a5fa" stroke-width="3" stroke-dasharray="6,6" opacity="0.6" />
+
+  <!-- Shoulders / Suit -->
+  <path d="M 90 380 C 100 290, 150 270, 200 270 C 250 270, 300 290, 310 380 Z" fill="#0f172a" />
+  
+  <!-- Shirt collar -->
+  <polygon points="175,270 200,320 185,320 170,280" fill="#ffffff" />
+  <polygon points="225,270 200,320 215,320 230,280" fill="#e2e8f0" />
+  
+  <!-- Tie -->
+  <polygon points="194,305 206,305 210,380 190,380" fill="#3b82f6" />
+  
+  <!-- Neck -->
+  <rect x="182" y="220" width="36" height="60" rx="10" fill="#f59e0b" />
+
+  <!-- Head -->
+  <ellipse cx="200" cy="180" rx="55" ry="65" fill="#fcd34d" />
+
+  <!-- Hair -->
+  <path d="M 145 180 C 145 110, 170 100, 200 100 C 235 100, 255 115, 255 180 C 245 130, 220 120, 200 125 C 180 130, 160 145, 145 180 Z" fill="#1e293b" />
+
+  <!-- Glasses -->
+  <rect x="162" y="165" width="30" height="22" rx="6" fill="none" stroke="#0f172a" stroke-width="4" />
+  <rect x="208" y="165" width="30" height="22" rx="6" fill="none" stroke="#0f172a" stroke-width="4" />
+  <line x1="192" y1="174" x2="208" y2="174" stroke="#0f172a" stroke-width="4" />
+  
+  <!-- Eyes -->
+  <circle cx="177" cy="176" r="3" fill="#0f172a" />
+  <circle cx="223" cy="176" r="3" fill="#0f172a" />
+
+  <!-- Smile -->
+  <path d="M 188 215 Q 200 226 212 215" fill="none" stroke="#b45309" stroke-width="3" stroke-linecap="round" />
+</svg>
